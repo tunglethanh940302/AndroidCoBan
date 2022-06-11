@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-50sp"
+        android:src="@drawable/ic_title_animal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TableRow
+            android:weightSum="3"
+            android:layout_gravity="center_vertical">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/id_elephant"
+                    android:src="@drawable/ic_elephant"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    tools:ignore="ContentDescription"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+
+                <ImageView
+                    android:id="@+id/id_elephant_fav"
+                    android:src="@drawable/ic_fav_2"
+                    android:visibility="invisible"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="bottom|end"
+                    tools:ignore="ContentDescription" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/id_dragon_fly"
+                    android:src="@drawable/ic_dragon_fly"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    tools:ignore="ContentDescription"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+
+                <ImageView
+                    android:id="@+id/id_dragon_fly_fav"
+                    android:src="@drawable/ic_fav_2"
+                    android:visibility="invisible"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="bottom|end"
+                    tools:ignore="ContentDescription" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/id_dolphin"
+                    android:src="@drawable/ic_dolphin"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    tools:ignore="ContentDescription"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+
+                <ImageView
+                    android:id="@+id/id_dolphin_fav"
+                    android:src="@drawable/ic_fav_2"
+                    android:visibility="invisible"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="bottom|end"
+                    tools:ignore="ContentDescription" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:weightSum="3"
+            android:layout_gravity="center_vertical">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/id_dog"
+                    android:src="@drawable/ic_dog"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    tools:ignore="ContentDescription"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+
+                <ImageView
+                    android:id="@+id/id_dog_fav"
+                    android:src="@drawable/ic_fav_2"
+                    android:visibility="invisible"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="bottom|end"
+                    tools:ignore="ContentDescription" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/id_pig"
+                    android:src="@drawable/ic_pig"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    tools:ignore="ContentDescription"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+
+                <ImageView
+                    android:id="@+id/id_pig_fav"
+                    android:src="@drawable/ic_fav_2"
+                    android:visibility="invisible"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="bottom|end"
+                    tools:ignore="ContentDescription" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/id_goose"
+                    android:src="@drawable/ic_goose"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    tools:ignore="ContentDescription"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+
+                <ImageView
+                    android:id="@+id/id_goose_fav"
+                    android:src="@drawable/ic_fav_2"
+                    android:visibility="invisible"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="bottom|end"
+                    tools:ignore="ContentDescription" />
+            </FrameLayout>
+        </TableRow>
+        <TableRow
+            android:weightSum="3"
+            android:layout_gravity="center_vertical">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/id_ladybug"
+                    android:src="@drawable/ic_ladybug"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    tools:ignore="ContentDescription"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+
+                <ImageView
+                    android:id="@+id/id_lady_bug_fav"
+                    android:src="@drawable/ic_fav_2"
+                    android:visibility="invisible"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom|end"
+                    tools:ignore="ContentDescription"
+                    android:layout_marginBottom="10dp"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/id_turtle"
+                    android:src="@drawable/ic_turtle"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    tools:ignore="ContentDescription"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+
+                <ImageView
+                    android:id="@+id/id_turtle_fav"
+                    android:src="@drawable/ic_fav_2"
+                    android:visibility="invisible"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="bottom|end"
+                    tools:ignore="ContentDescription" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/id_penguin"
+                    android:src="@drawable/ic_penguin"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    tools:ignore="ContentDescription"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+
+                <ImageView
+                    android:id="@+id/id_penguin_fav"
+                    android:src="@drawable/ic_fav_2"
+                    android:visibility="invisible"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="bottom|end"
+                    tools:ignore="ContentDescription" />
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
